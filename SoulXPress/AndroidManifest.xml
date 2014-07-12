@@ -5,7 +5,7 @@
     android:versionName="1.0" >
 
     <uses-sdk
-        android:minSdkVersion="8"
+        android:minSdkVersion="13"
         android:targetSdkVersion="21" />
 
     <application
@@ -20,6 +20,7 @@
                 <action android:name="android.intent.action.MAIN" />
             </intent-filter>
         </activity>
+        
          <activity
             android:name=".Splash"
             android:label="@string/app_name" >
@@ -28,6 +29,15 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        
+         <!--  Songs Activity -->
+        <activity android:name=".Home" />
+         
+        <!--  Videos Activity -->
+        <activity android:name=".TimeTable" />
+         
+        <!--  Photos Activity -->
+        <activity android:name=".Aboutus" />
         
     </application>
 
