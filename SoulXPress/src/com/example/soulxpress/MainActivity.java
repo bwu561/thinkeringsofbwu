@@ -1,11 +1,11 @@
 package com.example.soulxpress;
 
-import android.app.Activity;
 import android.app.TabActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.widget.TabHost;
 import android.widget.TabHost.TabSpec;
+
 
 @SuppressWarnings("deprecation")
 public class MainActivity extends TabActivity {
@@ -15,7 +15,6 @@ public class MainActivity extends TabActivity {
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
-		
 		TabHost tabHost = getTabHost();
         
         // Tab for Photos
@@ -41,6 +40,9 @@ public class MainActivity extends TabActivity {
         tabHost.addTab(home); // Adding photos tab
         tabHost.addTab(timetable); // Adding songs tab
         tabHost.addTab(aboutus); // Adding videos tab
+        
+        
+		
     }
 }
 
