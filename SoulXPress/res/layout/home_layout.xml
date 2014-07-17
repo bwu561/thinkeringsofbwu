@@ -4,7 +4,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:text="Home" 
-    android:background="#000000" >
+     >
  	
      <!-- Screen Design for news -->
   <TextView android:text="news HERE"
@@ -12,11 +12,17 @@
             android:textSize="18dip"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"/>
-
+			
   <ListView
       android:id="@android:id/list"
       android:layout_width="match_parent"
-      android:layout_height="wrap_content" >
-  </ListView>
+      android:layout_height="wrap_content"/>
+      
+  
+
+  
+ 
+  
+  
 
 </LinearLayout>
